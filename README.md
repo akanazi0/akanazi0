@@ -39,11 +39,3 @@ BSc in Computer Science, working as a Software & DevOps Engineer focused on back
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
----
-
-### 📊 GitHub Activity
-
-### 📊 GitHub Activity
-
-[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=akanazi0&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/akanazi0)
-[![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=akanazi0&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/akanazi0)
