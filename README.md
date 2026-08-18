@@ -43,7 +43,7 @@ BSc in Computer Science, working as a Software & DevOps Engineer focused on back
 
 ### 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akanazi0&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
-</p>
+### 📊 GitHub Activity
+
+[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=akanazi0&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/akanazi0)
+[![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=akanazi0&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/akanazi0)
