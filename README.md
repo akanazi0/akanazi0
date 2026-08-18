@@ -4,14 +4,6 @@ BSc in Computer Science, working as a Software & DevOps Engineer focused on back
 
 ---
 
-### What I'm Doing?
-- 🔭 Engineering scalable backend services, microservices, and robust APIs
-- ⚙️ Automating deployment pipelines, infrastructure as code, and container orchestration
-- 🌱 Deepening knowledge in system architecture, cloud-native tech, and Kubernetes
-- ⚡ Actively participating in open-source and local developer communities
-
----
-
 ### 🛠️ Tech Stack & Tools
 
 **Backend & Languages**  
