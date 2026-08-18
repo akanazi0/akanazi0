@@ -1,4 +1,4 @@
-# Hi there, I'm Abdulelah Khalaf 👋
+# Hi there, I'm Abdulelah Alanazi 👋
 
 BSc in Computer Science, working as a Software & DevOps Engineer focused on backend architecture, API design, and cloud infrastructure.
 
