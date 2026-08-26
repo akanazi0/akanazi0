@@ -1,7 +1,7 @@
-# ⚡ Abdulelah Alanazi
+#  Abdulelah Alanazi
 
 <p align="left">
-  <strong>Software & DevOps Engineer</strong> | Cloud Architecture • Distributed Systems • Automated Pipelines
+  <strong>Backend & DevOps Engineer</strong>
 </p>
 
 <p align="left">
@@ -11,12 +11,11 @@
 
 ---
 
-### 🚀 About Me
+### About Me
 
-- 🔭 **Focus:** Designing resilient backend architectures, scalable APIs, and automated CI/CD infrastructure.
-- 🎓 **Education:** BSc in Computer Science.
-- ⚙️ **Philosophy:** Code should be clean, deployments should be automated, and systems should be observable.
-- 💬 **Ask me about:** Distributed microservices, container orchestration, and Linux performance tuning.
+-  **Focus:** Designing resilient backend architectures, scalable APIs, and automated CI/CD infrastructure.
+-  **Education:** BSc in Computer Science.
+-  **Ask me about:** Distributed microservices, container orchestration, and Linux performance tuning.
 
 ---
 
