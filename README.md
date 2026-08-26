@@ -4,7 +4,6 @@
   <strong>Backend & DevOps Engineer</strong>
 </p>
 
----
 
 ### About Me
 
