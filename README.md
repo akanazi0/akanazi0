@@ -1,6 +1,6 @@
 #  Abdulelah Alanazi
 
-### Backend & DevOps Engineer
+### DevOps & Backend Engineer
 
 ### About Me
 
