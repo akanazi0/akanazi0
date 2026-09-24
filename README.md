@@ -5,9 +5,9 @@
 ---
 
 ### 💻 Core Domains
-* **Backend Systems:** High-throughput microservices, distributed systems, clean RESTful APIs.
+* **Backend Systems:** High throughput microservices, distributed systems, clean RESTful APIs.
 * **Infrastructure & Automation:** Cloud orchestration, CI/CD automation, containerization.
-* **Observability & Reliability:** System telemetry, load optimization, fault-tolerant pipelines.
+* **Observability & Reliability:** System telemetry, load optimization, fault tolerant pipelines.
 
 ---
 
