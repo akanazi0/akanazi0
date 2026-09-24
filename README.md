@@ -1,6 +1,6 @@
 # Abdulelah Alanazi
 
-> **DevOps & Backend Engineer**
+**DevOps & Backend Engineer**
 
 ---
 
@@ -20,8 +20,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://snk-olive.vercel.app/api/snk?username=abdulelahalanazi&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://snk-olive.vercel.app/api/snk?username=abdulelahalanazi&theme=light">
+    <img alt="Contribution Pixel Animation" src="https://snk-olive.vercel.app/api/snk?username=abdulelahalanazi&theme=dark" />
   </picture>
 </div>
