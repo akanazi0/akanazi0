@@ -1,20 +1,18 @@
-# Abdulelah K. Alanazi
+# Abdulelah Alanazi
 
 ### DevOps & Backend Engineer
+* Foucs in DevOps methodology, Backend Development and cloud infrastructure automation. I specialize in building reliable CI/CD pipelines, containerizing applications, and managing Linux environments, backed by a strong foundation in backend development.
 
----
+### Core Domains
+* **Backend Systems**
+* **Infrastructure & Automation**
+* **Observability & Reliability**
 
-### 💻 Core Domains
-* **Backend Systems:** High throughput microservices, distributed systems, clean RESTful APIs.
-* **Infrastructure & Automation:** Cloud orchestration, CI/CD automation, containerization.
-* **Observability & Reliability:** System telemetry, load optimization, fault tolerant pipelines.
-
----
-
-### ⚡ Focus Areas
+### Focus Areas
 * Designing systems built for performance, resilience, and horizontal scaling.
 * Infrastructure as Code (IaC) and reliable release engineering.
 * Linux systems and database query optimization.
+
 
 ---
 
