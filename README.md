@@ -1,5 +1,4 @@
 # Abdulelah Alanazi
----
 
 <div align="center">
   <picture>
