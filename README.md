@@ -1,14 +1,12 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akanazi0&custom_title=Abdulelah%20Khalaf's%20GitHub%20Stats&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akanazi0&custom_title=Abdulelah%20Khalaf's%20GitHub%20Stats&show_icons=true&theme=gruvbox&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&layout=donut&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&layout=donut&theme=gruvbox&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=akanazi0&theme=gruvbox&hide_border=true&card_width=750" height="170" />
+  <img src="https://streak-stats.demolab.com?user=akanazi0&theme=gruvbox&hide_border=true&background=00000000&card_width=800" height="170" />
 </p>
-
-<br>
 
 <div align="center">
   <picture>
