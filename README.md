@@ -1,4 +1,4 @@
-# Abdulelah Khalaf Alanazi
+# Abdulelah Alanazi
 
 <div align="center">
   <picture>
