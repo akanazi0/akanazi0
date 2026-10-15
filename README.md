@@ -9,5 +9,5 @@
 </p>
 
 <div align="center">
-  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.gif" />
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.svg" />
 </div>
