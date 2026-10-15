@@ -21,8 +21,8 @@ jobs:
         with:
           github_user_name: akanazi0
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#e5c07b&color_dots=#ebdbb2,#e5c07b,#d19a66,#be5046,#b15e6c
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#e5c07b&color_dots=#1e222a,#282c34,#abb2bf,#e5c07b,#d19a66
+            dist/github-contribution-grid-snake.svg?color_snake=#7aa2f7&color_dots=#16161e,#2ac3de,#7dcfff,#7aa2f7,#bb9af7
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#7aa2f7&color_dots=#16161e,#2ac3de,#7dcfff,#7aa2f7,#bb9af7
 
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
