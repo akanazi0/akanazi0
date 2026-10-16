@@ -10,20 +10,139 @@ on:
 
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
+
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      - name: generate snake.svg
+      # 1. Generate Snake Animation
+      - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: akanazi0
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?color_snake=#3fb950&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      # 2. Add Minimalist Card (No Shadows)
+      - name: Add Border and Background
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          path = Path("dist/github-contribution-grid-snake-dark.svg")
+
+          ET.register_namespace(
+              "", "http://www.w3.org/2000/svg"
+          )
+          ET.register_namespace(
+              "xlink", "http://www.w3.org/1999/xlink"
+          )
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          svg_ns = "http://www.w3.org/2000/svg"
+
+          # Ensure the original animation can be scaled.
+          if "viewBox" not in root.attrib:
+              width = root.get("width", "")
+              height = root.get("height", "")
+
+              w = re.fullmatch(r"([\d.]+)(?:px)?", width)
+              h = re.fullmatch(r"([\d.]+)(?:px)?", height)
+
+              if not w or not h:
+                  raise ValueError("Cannot determine original SVG dimensions")
+
+              root.set(
+                  "viewBox",
+                  f"0 0 {w.group(1)} {h.group(1)}"
+              )
+
+          # Create the outer card.
+          card = ET.Element(
+              f"{{{svg_ns}}}svg",
+              {
+                  "width": "856",
+                  "height": "175",
+                  "viewBox": "0 0 856 175"
+              }
+          )
+
+          # Minimalist background and border.
+          ET.SubElement(
+              card,
+              f"{{{svg_ns}}}rect",
+              {
+                  "x": "0.5",
+                  "y": "0.5",
+                  "width": "855",
+                  "height": "174",
+                  "rx": "6",
+                  "fill": "#0d1117",
+                  "stroke": "#21262d",
+                  "stroke-width": "1"
+              }
+          )
+
+          # Position the original snake animation.
+          root.set("x", "20")
+          root.set("y", "20")
+          root.set("width", "816")
+          root.set("height", "135")
+          root.set(
+              "preserveAspectRatio",
+              "xMidYMid meet"
+          )
+
+          card.append(root)
+
+          # Save the updated SVG.
+          ET.ElementTree(card).write(
+              path,
+              encoding="unicode",
+              xml_declaration=False
+          )
+
+          print("Snake card generated successfully.")
+          PY
+
+      # 3. Validate Generated SVG
+      - name: Validate Snake SVG
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          path = Path("dist/github-contribution-grid-snake-dark.svg")
+          root = ET.parse(path).getroot()
+
+          assert root.get("width") == "856"
+          assert root.get("height") == "175"
+          assert root.get("viewBox") == "0 0 856 175"
+
+          assert len(root) >= 2
+
+          background = root[0]
+          snake = root[1]
+
+          assert background.get("fill") == "#0d1117"
+          assert background.get("stroke") == "#21262d"
+
+          assert snake.get("width") == "816"
+          assert snake.get("height") == "135"
+
+          print("SVG dimensions and card styling verified.")
+          PY
+
+      # 4. Publish to Output Branch
+      - name: Push Snake SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
