@@ -14,8 +14,8 @@
 
   <p align="center">
     <img
-      src="https://streak-stats.demolab.com?user=akanazi0&theme=shadow_green&background=0d1117&border=0d1117&hide_border=true&card_width=856&card_height=175"
-      width="92%"
+      src="https://streak-stats.demolab.com?user=akanazi0&theme=shadow_green&background=0d1117&border=0d1117&hide_border=true&card_width=1000&card_height=160"
+      width="100%"
       alt="GitHub Streak"
     />
   </p>
