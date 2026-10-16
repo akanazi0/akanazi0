@@ -1,13 +1,32 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akanazi0&custom_title=Abdulelah%20Khalaf's%20GitHub%20Stats&show_icons=true&theme=shadow_green&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=akanazi0&custom_title=Overview&show_icons=true&theme=default&bg_color=0d1117&border_color=21262d&text_color=c9d1d9&icon_color=2ea043&title_color=2ea043&count_private=true&hide=stars,issues&hide_rank=true&show=prs_merged&card_width=420&line_height=24"
+    width="420"
+    height="175"
+    alt="GitHub Overview"
+  />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&layout=donut&theme=shadow_green&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true&cache_seconds=0" height="195" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&theme=default&bg_color=0d1117&border_color=21262d&text_color=c9d1d9&title_color=2ea043&count_private=true&layout=compact&card_width=420&langs_count=5"
+    width="420"
+    height="175"
+    alt="Most Used Languages"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=akanazi0&theme=shadow_green&hide_border=true&background=00000000&card_width=800" height="170" />
+  <img
+    src="https://streak-stats.demolab.com?user=akanazi0&theme=shadow_green&background=0d1117&border=21262d&card_width=856&card_height=175"
+    width="856"
+    height="175"
+    alt="GitHub Streak"
+  />
 </p>
 
-<div align="center">
-  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.svg" />
-</div>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.svg"
+    width="856"
+    alt="GitHub Contribution Snake Animation"
+  />
+</p>
