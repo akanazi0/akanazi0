@@ -22,7 +22,7 @@
 
   <p align="center">
     <img
-      src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.svg"
+      src="https://raw.githubusercontent.com/akanazi0/akanazi0/output/github-contribution-grid-snake-dark.svg?v=1"
       width="92%"
       alt="GitHub Contribution Snake Animation"
     />
