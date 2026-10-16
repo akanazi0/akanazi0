@@ -6,7 +6,7 @@
       width="46%"
       alt="GitHub Overview"
     /><img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&theme=default&bg_color=0d1117&border_color=0d1117&text_color=c9d1d9&title_color=2ea043&count_private=true&layout=compact&card_width=420&langs_count=5&hide_border=true"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=akanazi0&theme=default&bg_color=0d1117&border_color=0d1117&text_color=c9d1d9&title_color=2ea043&count_private=true&layout=compact&card_width=420&langs_count=6&hide_border=true"
       width="46%"
       alt="Most Used Languages"
     />
